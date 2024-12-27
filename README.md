@@ -33,6 +33,9 @@ From the above characteristic table, we can directly write the next state equati
 **PROGRAM**
 
 developed by SWETHA NIVASINI B R 
+
+
+
 registration number 24900367
 
 
