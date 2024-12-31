@@ -50,7 +50,8 @@ registration number 24900367
 
 
 
-   ``` module t_ff_ (t, clk, rst, q);
+   ```
+    module t_ff_ (t, clk, rst, q);
     
     input t, clk, rst;
     
