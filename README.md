@@ -50,20 +50,32 @@ registration number 24900367
 
 
 
-module t_ff_ (t, clk, rst, q);
-  input t, clk, rst;
-  output reg q;
+   ``` module t_ff_ (t, clk, rst, q);
+    
+    input t, clk, rst;
+    
+    output reg q;
 
-  always @(posedge clk or posedge rst) 
-begin
+    always @(posedge clk or posedge rst) 
+    
+     begin
+     
     if (rst)
-      q <= 0; // Reset the flip-flop
+    
+    q <= 0; // Reset the flip-flop
+    
     else if (t==0)
-      q <= q; 
-     else
-        q<=~q;
-  end
-endmodule
+    
+    q <= q; 
+    
+    else
+    
+    q<=~q;
+    
+    end
+    
+    endmodule
+```
 
 
 
@@ -86,18 +98,19 @@ endmodule
 
 
 
-**TIMING DIAGRAMS FOR FLIP FLOPS**
+**TIMING DIAGRAM FOR FLIP FLOPS**
 
 
 
 
 
 
-![image](https://github.com/user-attachments/assets/ad52e38e-3f48-415a-a780-2d02e7281f1d)
+![WhatsApp Image 2024-12-31 at 13 25 35_0fef484e](https://github.com/user-attachments/assets/de35cb67-f430-4a7d-bb62-6f6f3e3006b3)
+
 
 
 **RESULT**
 
 
 
-implemented T flipflop using Verilog and validated their functionality using their functional tables
+Implemented T flipflop using Verilog and validated their functionality using their functional tables
